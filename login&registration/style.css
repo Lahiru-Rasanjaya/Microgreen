@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('background.png')no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.items{
+    align-items: center;
+    margin-left: 3.5%;
+    margin-top: 5%;
+}
+.MGframe{   
+    margin-top: 2%;
+    width: 650px;
+    height: 540px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95),rgba(255, 255, 255, 0)); 
+}
+.MGlogo{
+    margin-top: 1%;
+    margin-left: 203.5px;
+    width: 284px ;
+    height: 96.73px;
+    background: url('logo.png')no-repeat;
+    image-resolution: 3000;
+    background-size: cover;
+    background-position: center;
+}
+.MGWAM{
+    background-color:rgba(3, 39, 0, 0.8);
+    color: white;
+    font-size: 32px;
+    padding: 1.5rem 5rem;
+    border-radius: 25px;
+    margin-left: 10%;
+    text-decoration: none;
+    
+}
+.MGWAM:hover{
+    background-color: #032700;
+}
+.MP{
+    margin-top: 11%;
+}
+.MGMP{
+    margin-top: 10%;
+    background-color:rgba(3, 39, 0, 0.8);
+    color: white;
+    font-size: 32px;
+    padding: 1.5rem 6.5rem;
+    border-radius: 25px;
+    margin-left: 10%;
+    text-decoration: none;
+}
+.MGMP:hover{
+    background-color: #032700;
+    
+}
+.shopicon{
+   margin-left: -5%;
+}
+.alignButtons{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.login{
+    margin-top: 10%;
+    background-color:rgba(3, 39, 0, 0.8);
+    color: white;
+    font-size: 32px;
+    padding: 1rem 4rem;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-left: 2%;
+}
+.login:hover{
+    background-color: #032700;
+}
+.registration{
+    background-color:rgba(3, 39, 0, 0.8);
+    color: white;
+    font-size: 32px;
+    padding: 1rem 3rem;
+    border-radius: 25px;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+.registration:hover{
+    background-color: #032700;
+}
+
+
+
+
+/* for login form */
+.close{
+    margin-left: 89%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 2% 4%;
+    font-size: 2em;
+    font-weight: 600;
+    border-bottom-left-radius: 10px;
+    text-decoration: none;
+}
+.labelLogin{
+    margin-left: 38%;
+    font-size: 40px;
+}
+.MGloginForm{
+    width: 500px;
+    height: 540px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.MGloginLogo{
+    margin-top: 8%;
+    width: 218.07px;
+    height: 62px;
+    background: url('logo.png')no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 12%;
+}
+.MGloginLogoRectangle{
+    background-color: white;
+    width: 279px;
+    min-height: 62px;
+    border-radius: 20px;
+    margin-left: 23%;
+}
+.MGloginItems{
+    padding-top: 2%;
+}
+label{
+    color: white;
+}
+.label1{
+    font-size: 30px;
+    margin-left: 10%;
+}
+.nameText{
+    margin-top: 2%; 
+    width: 420px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    border-color: #b8b5b5;
+    font-size: 18px;
+    padding-left: 4%;
+}
+.label2{
+    font-size: 30px;
+    margin-left: 10%;
+}
+.passwordText{
+    margin-top: 2%;
+    width: 419px;
+    height: 50px; 
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    margin-left: 10%;
+    border-color: #b8b5b5;
+    font-size: 18px;
+    padding-left: 4%;
+    margin-bottom: 2%;
+}
+
+.MGloginbutton{
+    margin-left: 172px;
+    background-color: rgba(3, 135, 24, 1);
+    color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 1%;
+    font-size: 18px;
+}
+.MGloginbutton:hover{
+    background-color: rgb(0, 78, 0);
+}
+
+.dhaaLogin{
+    margin-left: 25%;
+}
+.passwordicon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon-eyehide2{
+    display: none;
+}
+
+
+
+/* Registration */
+
+.MGregistrationForm{
+    padding-top: 2%;
+    margin-top: 1%;
+    width: 500px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    margin-bottom: 1%;
+    overflow: hidden;
+}
+
+.label3{
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: -2%;
+}
+.ConfirmpasswordText{
+    margin-top: 2%;
+    width: 418px;
+    height: 50px; 
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    margin-left: 10%;
+    border-color: #b8b5b5;
+    font-size: 18px;
+    padding-left: 4%;
+
+}
+.dhaaRegistration{
+    margin-left: 32%;
+}
+.MGregistrationbutton{
+    margin-left: 175px;
+    background-color: rgba(3, 135, 24, 1);
+    color: white;
+    width: 170px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 1%;
+    font-size: 18px;
+}
+.MGregistrationbutton:hover{
+    background-color: rgb(0, 78, 0);
+}
+.MGregistration{
+    margin-top: 5%;
+    width: 218.07px;
+    height: 62px;
+    background: url('logo.png')no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 12%;
+}
+.MGregistrationRectangle{
+    background-color: white;
+    width: 279px;
+    min-height: 62px;
+    border-radius: 20px;
+    margin-left: 23%;
+    margin-bottom: 5%;
+}
+
+a{
+    color: rgb(0, 183, 255);
+}
+.loginerror{
+    background: red;
+    text-align: center;
+    color: white;
+    margin-top: -6%;
+    margin-bottom: 1%;
+    padding: 5px;
+}
+.Rloginerror{
+    background: red;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 5px;
+}
+.passowrdicon1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icons1{
+    margin-top: 2%;
+}

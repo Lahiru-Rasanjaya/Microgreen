@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+ul {
+    margin-top: 3%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(35, 139, 58, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+  
+li {
+    float: left;
+}
+  
+li .all{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+  
+  li .all:hover {
+    background-color: rgba(16, 198, 0, 0.8);
+}
+.MGlogowhite{
+    margin-top: -13%;
+    margin-left: 37%;
+    width: 350px;
+    height: 65px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.MGlogo{
+    margin-top: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    background: url('logo.png')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.regi-shoplogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 41rem;
+}
+.shop-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginName{
+    background-color:  rgb(46, 173, 74);
+    padding-top: 11px;
+    padding-bottom: 9px;
+    width: auto;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 20px;
+}
+.loginName:hover {
+    background-color:   rgba(16, 198, 0, 0.8);
+}
+.login{
+    border: none;
+    color: white;
+}
+.loginicon{
+    margin-top: -0.5rem;
+    width:  30px;
+    height: 30px;
+}
+.headtopic{
+    font-size: 80px;
+    color: white;
+    font-weight: 800;  
+}
+.textbox1{
+    margin-left: 45%;
+    width: 30px;
+    background-color:  rgba(35, 139, 58, 1);
+    border: none;
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+.logout{
+    color: white;
+    padding: 10px 2rem;
+    background-color:  rgb(46, 173, 74);
+    border-radius: 20px;
+    margin-left: -0.5rem;
+}
+.logout:hover{
+    background-color: #C30000;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* payment */
+
+
+.allItems{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+/* number1 */
+
+.rec1{
+    width: 20%;
+    height: 10px;
+    background-color: #14BA0C;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 1.5%;
+}
+.number1{
+    font-size: 25px;
+    font-weight: 800;
+    height: 50px;
+    width: 50px;
+    background-color: #ADADAD;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.num1{
+    margin-left: -5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* number2 */
+.rec2{
+    width: 15%;
+    height: 10px;
+    background-color: #bbb;
+    margin-top: 1.5%;
+    margin-left: -1.5%;
+}
+.number2{
+    font-size: 25px;
+    font-weight: 800;
+    height: 50px;
+    width: 50px;
+    background-color: #ADADAD;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.num2{
+    margin-left: -5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* number3 */
+
+.rec3{
+    width: 20%;
+    height: 10px;
+    background-color: #bbb;
+    margin-top: 1.5%;
+    margin-left: -3.8%;
+}
+.number3{
+    font-size: 25px;
+    font-weight: 800;
+    height: 50px;
+    width: 50px;
+    background-color: #ADADAD;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.num3{
+    margin-left: -5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rec4{
+    width: 18%;
+    height: 10px;
+    background-color: #bbb;
+    margin-top: 1.5%;
+    margin-left: -1.2%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* product details */
+
+.image-table{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+.image-Details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.price-value{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2.5%;
+}
+.price{
+    background-color: rgba(20, 253, 0, 0.25);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.price-Continuity{
+    background-color: rgba(217, 217, 217, 1);
+    padding: 0px 15px;
+    border-radius: 10px;
+}
+.min{
+    width: 30px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: transparent;
+    border: none;
+}
+.max{
+    width: 30px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: transparent;
+    border: none;
+}
+.value{
+    font-size: 2em;
+}
+
+/* price table */
+
+.price-table{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: rgba(78, 76, 76, 1);
+    color: white;
+    padding: 2% 2%;   
+    border-radius: 10px;
+}
+.four-types{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.line{
+    width: 60px;
+    height: 1px;
+    background-color: white;
+}
+.continue-button{
+    margin-top: 3%;
+    display: flex;
+    justify-content: right;
+    margin-right: 26%;
+}
+.continue-button button{
+    padding: 1rem 4rem;
+    background-color: rgba(35, 139, 58, 1);
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+.continue-button button:hover{
+    background-color: rgba(16, 198, 0, 0.8);
+}
+.lockicon{
+    margin-right: 2px;
+}
+
+/* shippiing and payment */
+.rec2colour{
+    background-color: #14BA0C;
+}
+.buttonBottom{
+    margin-bottom: 10rem;
+}
+
+
+
+/* all textboxes */
+.yourDtails{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 23.8%;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.details{
+    margin-top: 3%;
+}
+.Alltextbox{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.textbox-Align{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+.lable-textbox{
+    display: flex;
+    flex-direction: column;
+}
+.textbox-names{
+    font-weight: 600;
+}
+
+.textbox-design{  
+    margin-top: 1%;
+    height: 2.5rem;
+    width: 20rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #000000;
+    background: #F2F1F1;
+    border-radius: 10px; 
+}
+.oneTextbox-design{
+    margin-top: 1%;
+    height: 2.5rem;
+    width: 44rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #000000;
+    background: #F2F1F1;
+    border-radius: 10px; 
+}
+
+/* Credit Card */
+
+.CreditCard{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24%;
+    margin-top: 1%;
+}
+.card-para{
+    margin-top: 5%;
+    font-weight: 600;
+}
+.card-textboxs{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+.textbox-designPIN{
+    margin-top: 1%;
+    height: 2.5rem;
+    width: 8rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    border-color: #ffffff;
+    color: #000000;
+    background: #F2F1F1;
+    border-radius: 10px; 
+}
+
+/* prodct image */
+.image-topic{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 24%;
+}
+.productNamePrice{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6px;
+}
+.oderName{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.creditCardButton{
+    margin-right: 24%;
+}
+
+/* Confirmation page */
+.rec3colour{
+    background-color: #14BA0C;
+}
+
+/* oder Successfull page */
+.messageleft{
+    margin-top: 1%;
+    margin-left: 20%;
+}
+.rec4color{
+    background-color: #14BA0C;
+}
+.successfill-Massge{
+    margin-top: 4%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.msg{
+    padding: 1rem 5rem;
+    background-color: rgba(20, 253, 0, 0.25);
+    border-radius: 50px;
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+.ProductViewing-button{
+    margin-top: 3%;
+    display: flex;
+    justify-content: right;
+    margin-right: 15%;
+}
+.ProductViewing-button button{
+    padding: 1rem 4rem;
+    background-color: rgba(35, 139, 58, 1);
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    margin-bottom: 10rem;
+}
+.ProductViewing-button button:hover{
+    background-color: rgba(16, 198, 0, 0.8);
+}
+
+/* oders page */
+.ALLimages-Details{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    gap: 5rem;
+    margin-bottom: 20rem;
+}
+.image-details{
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.peicewidth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+}
+
+/* footer */
+.footeralign{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.footerAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 250px;
+    flex-shrink: 0;
+    background-color: #238B3A;
+}
+.footerLocation{
+    border: 1px solid #000;
+    padding: 2%;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}.footercontact{
+    border: 1px solid #000;
+    padding: 2%;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footerLogo{
+    margin-right: 6rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    color: white;
+}
+.bottom{
+    margin-top: 5%;
+
+}
